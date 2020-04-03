@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>조예린입니다.</title>
+    <!--웹폰트-->
+    <link href="//db.onlinewebfonts.com/c/2596224269750e00c3ad5356299a3b9f?family=GT+America+Expanded+Ultra+Light|Ogg" rel="stylesheet" type="text/css"/>
+<style>
+@font-face {font-family: "GT America Expanded Ultra Light"; src: url("//db.onlinewebfonts.com/t/3ac3a8ff95fa504fd32a78dcd993f7ec.eot"); src: url("//db.onlinewebfonts.com/t/3ac3a8ff95fa504fd32a78dcd993f7ec.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/3ac3a8ff95fa504fd32a78dcd993f7ec.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/3ac3a8ff95fa504fd32a78dcd993f7ec.woff") format("woff"), url("//db.onlinewebfonts.com/t/3ac3a8ff95fa504fd32a78dcd993f7ec.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/3ac3a8ff95fa504fd32a78dcd993f7ec.svg#GT America Expanded Ultra Light") format("svg"); }
+@font-face {font-family: "Ogg"; src: url("//db.onlinewebfonts.com/t/2596224269750e00c3ad5356299a3b9f.eot"); src: url("//db.onlinewebfonts.com/t/2596224269750e00c3ad5356299a3b9f.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/2596224269750e00c3ad5356299a3b9f.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/2596224269750e00c3ad5356299a3b9f.woff") format("woff"), url("//db.onlinewebfonts.com/t/2596224269750e00c3ad5356299a3b9f.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/2596224269750e00c3ad5356299a3b9f.svg#Ogg") format("svg"); }
+@font-face {font-family: 'oggitalic'; src: url('ogg-italic-webfont.woff2') format('woff2'), url('ogg-italic-webfont.woff') format('woff'); font-weight: normal; font-style: normal;}
+
+body {
+  background-color: #F2F0E9;
+}
+header {
+  height:80px;
+  margin: 20px 100px;
+  font-family: 'Ogg';
+}
+
+    #fadein {
+        animation: fadein 2s;
+        -webkit-animation: fadein 2s; /* Safari and Chrome */
+    }
+    @keyframes fadein {
+        from {opacity:0;}
+        to {opacity:1;}
+    }
+    @-webkit-keyframes fadein { /* Safari and Chrome */
+        from {opacity:0;}
+        to {opacity:1;}
+    }
+.underline a {color: #343434; text-decoration:none; transition: all 0.3s ease-out;}
+.underline a:hover{background-image: linear-gradient(120deg, #FF4646 0%, #ff5c7d 100%); background-repeat: no-repeat; background-size: 100% 0.25em; background-position: 0 58%;}
+.yerinchofont {font-size: 30px;}
+.yerinchofont :hover {
+  transition: all 2s ease-in-out;
+  background-image: linear-gradient(120deg, #FF4646 0%, #ff5c7d 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.circlemenu{width:100px; height:40px; border:1pt solid #343434; border-radius:50%; text-align: center; font-size: 25px; color: #343434; float: right;}
+
+input[type="radio"] {display:none;}
+.conbox {height:600px; display:none; text-align: center}
+.btn {padding:10px;}
+label[for*="tab"] {
+	display:inline-block;
+	padding:5px;
+	background:#C9C1B8;
+	margin:5px;
+	border-radius:100%;
+}
+input[id="tab01"]:checked ~ .con1 {display:block;}
+input[id="tab02"]:checked ~ .con2 {display:block;}
+input[id="tab03"]:checked ~ .con3 {display:block;}
+input[id="tab01"]:checked ~ .btn > label[for="tab01"]{background:#343434;}
+input[id="tab02"]:checked ~ .btn > label[for="tab02"]{background:#343434;}
+input[id="tab03"]:checked ~ .btn > label[for="tab03"]{background:#343434;}
+iframe {width: 100%; height:100%;}
+
+@media screen and (max-width:500px){
+  header {height:60px; margin: 20px;}
+.yerinchofont {font-size: 25px;}
+.circlemenu{width:80px; height:32px; font-size: 19px;}
+.conbox {height:400px;}
+}
+
+@media screen and (max-width:320px){
+  header {height:60px; margin: 10px;}
+  .yerinchofont {font-size: 20px;}
+  .circlemenu{width:60px; height:24px; font-size: 15px;}
+}
+
+  </style>
+  </head>
+
+  <body>
+    <header>
+      <span class="yerinchofont"><a href="index.html" style="color: #343434;text-decoration:none;">YERINCHO</a></span>
+      <a href="menu.html"><div class="circlemenu">menu</div></a>
+    </header>
+    <section>
+      <div id="fadein">
+      <center>
+    <div class="fadein">
+      <div class="tab_content">
+
+      	<input type="radio" name="tabmenu" id="tab01" checked>
+      	<input type="radio" name="tabmenu" id="tab02">
+      	<input type="radio" name="tabmenu" id="tab03">
+        <input type="radio" name="tabmenu" id="tab04">
+
+      	<div class="conbox con1">
+          <iframe  src="aboutme1.html" frameborder="0" name='content' marginheight="0" scrolling="no">
+          </iframe>
+        </div>
+
+      	<div class="conbox con2">
+          <iframe  src="aboutme2.html" frameborder="0" name='content' marginheight="0" scrolling="no">
+          </iframe>
+        </div>
+
+      	<div class="conbox con3">
+          <iframe  src="aboutme3.html" frameborder="0" name='content' marginheight="0" scrolling="no">
+          </iframe>
+        </div>
+      	<div class="btn">
+      		<label for="tab01"></label>
+      		<label for="tab02"></label>
+      		<label for="tab03"></label>
+      	</div>
+      </div>
+      </div>
+      </center>
+      </div>
+  </section>
+ </body>
+</html>
