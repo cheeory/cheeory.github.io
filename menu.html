@@ -110,3 +110,115 @@ sup {font-size: 10px;}
   </section>
  </body>
 </html>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>조예린입니다.</title>
+    <!--웹폰트-->
+    <link href="//db.onlinewebfonts.com/c/2596224269750e00c3ad5356299a3b9f?family=GT+America+Expanded+Ultra+Light|Ogg" rel="stylesheet" type="text/css"/>
+<style>
+@font-face {font-family: "GT America Expanded Ultra Light"; src: url("//db.onlinewebfonts.com/t/3ac3a8ff95fa504fd32a78dcd993f7ec.eot"); src: url("//db.onlinewebfonts.com/t/3ac3a8ff95fa504fd32a78dcd993f7ec.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/3ac3a8ff95fa504fd32a78dcd993f7ec.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/3ac3a8ff95fa504fd32a78dcd993f7ec.woff") format("woff"), url("//db.onlinewebfonts.com/t/3ac3a8ff95fa504fd32a78dcd993f7ec.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/3ac3a8ff95fa504fd32a78dcd993f7ec.svg#GT America Expanded Ultra Light") format("svg"); }
+@font-face {font-family: "Ogg"; src: url("//db.onlinewebfonts.com/t/2596224269750e00c3ad5356299a3b9f.eot"); src: url("//db.onlinewebfonts.com/t/2596224269750e00c3ad5356299a3b9f.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/2596224269750e00c3ad5356299a3b9f.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/2596224269750e00c3ad5356299a3b9f.woff") format("woff"), url("//db.onlinewebfonts.com/t/2596224269750e00c3ad5356299a3b9f.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/2596224269750e00c3ad5356299a3b9f.svg#Ogg") format("svg"); }
+@font-face {font-family: 'oggitalic'; src: url('ogg-italic-webfont.woff2') format('woff2'), url('ogg-italic-webfont.woff') format('woff'); font-weight: normal; font-style: normal;}
+
+body {background-color: #F2F0E9;}
+header {
+  height:100px;
+  margin: 20px 100px;
+  font-family: 'Ogg';
+}
+section {
+      font-family: 'Ogg';
+      color: #343434;
+      line-height: 130px
+    }
+    #fadein {
+        animation: fadein 2s;
+        -webkit-animation: fadein 2s; /* Safari and Chrome */
+    }
+    @keyframes fadein {
+        from {opacity:0;}
+        to {opacity:1;}
+    }
+    @-webkit-keyframes fadein { /* Safari and Chrome */
+        from {opacity:0;}
+        to {opacity:1;}
+    }
+.underline a {
+  transition: all 0.3s ease-out;
+  color: #343434;
+  text-decoration:none;
+}
+.underline a:hover{
+  background-image: linear-gradient(120deg, #FF4646 0%, #ff6785 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 0.25em;
+  background-position: 0 58%;
+}
+.menufont {font-size: 100px}
+.mainfont {font-size: 80px}
+.archinvefont {font-size: 70px}
+.smenufont {font-size: 40px}
+.yerinchofont {font-size: 30px;}
+.yerinchofont :hover {
+  transition: all 2s ease-in-out;
+  background-image: linear-gradient(120deg, #FF4646 0%, #ff6785 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.circlemenu{
+  width:100px;
+  height:40px;
+  border:1pt solid #343434;
+  border-radius:50%;
+  text-align: center;
+  font-size: 25px;
+  color: #343434;
+  float: right;
+}
+sup {font-size: 30px;}
+
+@media screen and (max-width:500px){
+  header {
+    height:140px;
+    margin: 20px;
+    border: 0px solid black;}
+    section {margin: 20px; line-height: 55px;}
+.yerinchofont {font-size: 25px;}
+.menufont {font-size: 50px}
+sup {font-size: 10px;}
+.circlemenu{width:80px; height:32px; font-size: 19px;}
+}
+
+@media screen and (max-width:320px){
+  header {height:60px; margin: 10px;}
+  section {line-height: 40px;}
+  .yerinchofont {font-size: 20px;}
+  .menufont {font-size: 45px}
+  sup {font-size: 10px;}
+  .circlemenu{width:60px; height:24px; font-size: 15px;}
+}
+  </style>
+  </head>
+
+  <body>
+    <header>
+      <span class="yerinchofont"><a href="index.html" style="color: #343434;text-decoration:none;">YERINCHO</a></span>
+      <a href="menu.html"><div class="circlemenu">menu</div></a>
+    </header>
+    <section>
+    <div id="fadein">
+    <center>
+    <span class="menufont">
+      <sup><i>01</i></sup><span class="underline"><a href="aboutme.html">&nbsp;About me&nbsp;</a></span>&nbsp;<br>
+      &nbsp;<span class="underline"><a href="archive.html">&nbsp;Archive&nbsp;</a></span><sup><i>02</i></sup><br>
+      <sup><i>03</i></sup><span class="underline"><a href="activity.html">&nbsp;Activity&nbsp;</a></span>&nbsp;<br>
+      &nbsp;<span class="underline"><a href="#">&nbsp;Contact&nbsp;</a></span><sup><i>04</i></sup><br>
+      </span>
+  </center>
+  </div>
+  </section>
+ </body>
+</html>
